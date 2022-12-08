@@ -1,0 +1,15 @@
+package javaprogrames;
+
+public class JavaAssignment2 {
+
+	public static void main(String[] args) {
+		String s = "ahceclwlxd";
+		String s1 = "HELLO";
+		System.out.println(s.toUpperCase());
+		System.out.println(s1 + s.toUpperCase());
+
+		// TODO Auto-generated method stub
+
+	}
+
+}

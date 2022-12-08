@@ -1,0 +1,20 @@
+package javaprogrames;
+
+import java.util.Scanner;
+
+public class JavaAssignment4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the inputnumer");
+		int num = sc.nextInt();
+		int i = 0;
+		for (i = 1; i <= num; i++) {
+
+			System.out.println(num * i);
+		}
+
+	}
+}
+
+// TODO Auto-generated method stub

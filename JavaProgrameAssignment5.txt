@@ -1,0 +1,18 @@
+package javaprogrames;
+
+public class JavaAssignment5 {
+
+	public static void main(String[] args) {
+		String s1 = "Hello Programming";
+		String s2 = "I don't like you";
+		String s3 = "But I have to LEARN";
+		String s4 = "I am Ready";
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(s4);
+		; // TODO Auto-generated method stub
+
+	}
+
+}

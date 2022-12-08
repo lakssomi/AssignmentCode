@@ -1,0 +1,53 @@
+package javaprogrames;
+
+import java.util.Scanner;
+
+public class JavaAssignment7 {
+
+	public static void main(String[] args) {
+		printprimenumbers();
+	}
+
+	public static boolean primenumber(int sn) {
+
+		int m = sn / 2;
+		boolean flag;
+
+		flag = true;
+
+		if (sn == 0 || sn == 1) {
+			// System.out.println(sn + "is not a prime number");
+			flag = false;
+		} else {
+			for (int i = 2; i < m; i++) {
+				if (sn % i == 0) {
+					// System.out.println(sn + "is not a prime number");
+					flag = false;
+					break;
+				}
+			}
+		}
+
+		return flag;
+	}
+
+	public static void printprimenumbers() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter beginning number");
+		int bn = sc.nextInt();
+		System.out.println("Enter ending number");
+		int en = sc.nextInt();
+
+		boolean flag2;
+		for (int i = bn; i < en; i++) {
+			flag2 = primenumber(i);
+			// System.out.println(i);
+			if (flag2 == true) {
+				System.out.println(i + " is a primenumber");
+
+			}
+		}
+
+	}
+
+}

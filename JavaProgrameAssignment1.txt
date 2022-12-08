@@ -1,0 +1,13 @@
+package javaprogrames;
+
+public class JavaAssignment1 {
+
+	public static void main(String[] args) {
+		String s = "AHCECLWLXD";
+		String s1 = "HELLO";
+		System.out.println(s1 + s);
+		// TODO Auto-generated method stub
+
+	}
+
+}
